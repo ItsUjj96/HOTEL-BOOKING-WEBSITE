@@ -1,10 +1,43 @@
-<html>
+<!DOCTYPE html>
     <head>
         <title>
 
         </title>
+
+        <style>
+            header{
+                background-color: rosybrown;
+            }
+
+            .detailfooter {
+                background-color:rosybrown;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                }
+                .detailbody{
+                    background-color: #e0e0e0;
+                }
+                #detailimg1{
+                    margin-top: 2%;
+                    margin-left: 4%;
+                    margin-right: 4%;
+                }
+                #detailform{
+                    margin-left: 4%;
+                    margin-bottom: 1%;
+                    margin-right: 4%;
+                }
+                #detaildiscription{
+                    margin-left: 4%;
+                    margin-top: 1%;
+                    margin-bottom: 2%;
+                    margin-right: 4%;
+
+                }
+        </style>
     </head>
-    <body>
+    <body class="detailbody">
         <div>
         <header>
         <a> 
@@ -13,9 +46,9 @@
     
         <a  href="login.html" target="_blanck">Login</a><br>
         </header>
-    <img style="height: 500px; width:500px" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+    <img id="detailimg1" style="height: 500px; width:500px" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
 
-    <form action="payment.html" >
+    <form id="detailform" action="payment.html" >
         <br/>
         <label for="Adults">Adults:</label>
         <input type="number" id="Adults" name="Adults" min="1" required>
@@ -35,6 +68,7 @@
         <button>Book Now</button>
     </form>
 
+    <div id="detaildiscription">
     <h2>Radisson Blu Hotel</h2>
     <div>RATING</div>
     <br>
@@ -51,14 +85,17 @@
 
     <h5>DESCRIPTION</h5>
     <div>anhcjhivghishvshkbgashvohsdfigasigfhasofgohohoehgfi hgo hasiufgoashpask ghsabo avhpvhaigfn  ugasdhvna ujgoiahnaoh</div>
+    </div>
        <br>
-    <a href="contact.html" target="_blanck">Contact Us</a><br>
-    <a href="https://www.facebook.com" target="_blank"><img src="E:\HOTEL-BOOKING-WEBSITE\assests\images\facebook.png" style="height: 20px; width: 22px;"></a> 
-    <a href="https://www.instagram.com" target="_blank"><img src="E:\HOTEL-BOOKING-WEBSITE\assests\images\instagram.png" style="height: 20px; width: 22px;"></a>
-    <a href="https://twitter.com" target="_bank"><img src="E:\HOTEL-BOOKING-WEBSITE\assests\images\twitter.png" style="height: 20px; width: 22px;"></a>
-        
-        <p>&#169; 2020 ROOM SEARCH PVT. LTD.</p>
-    <div Footer></div>
+       <footer class="detailfooter">
+        <a href="contact.html" target="_top">Contact Us</a><br>
+        <a href="https://www.facebook.com" target="_blank"><img src="E:\HOTEL-BOOKING-WEBSITE\assests\images\facebook.png" style="height: 20px; width: 22px;"></a> 
+        <a href="https://www.instagram.com" target="_blank"><img src="E:\HOTEL-BOOKING-WEBSITE\assests\images\instagram.png" style="height: 20px; width: 22px;"></a>
+        <a href="https://twitter.com" target="_bank"><img src="E:\HOTEL-BOOKING-WEBSITE\assests\images\twitter.png" style="height: 20px; width: 22px;"></a>
+    <br>
+    <span>&#169; 2020 ROOM SEARCH PVT. LTD.</span>
+</div>
+</footer>
         </a>
         
         </div>
