@@ -10,6 +10,7 @@
     width: 50%;
 }
 
+
 .mainDiv{
     margin-bottom: 100px; 
     flex-direction: column;
@@ -17,15 +18,16 @@
 }
 
 .abc{
-    font-family: cursive;  
+    font-family: cursive; 
 }
+
 .descSty{
     display: flex; 
-     
+    
     background-color:rosybrown; 
     
-    border:1px solid black;
-    border-radius:  5px; 
+    border:1px solid black; 
+    border-radius: 5px; 
     margin-right: 2%; 
     margin-left: 2%;
     
